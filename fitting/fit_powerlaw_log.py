@@ -1,3 +1,7 @@
+# From scipy cookbook
+# http://scipy-cookbook.readthedocs.io/items/FittingData.html
+
+
 from scipy import optimize
 
 powerlaw = lambda x, amp, index: amp * (x**index)
