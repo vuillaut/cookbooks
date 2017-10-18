@@ -1,0 +1,6 @@
+config:
+    class: File
+    path: configDir/testConfig.ini
+prun_file:
+  class: File
+  path: ../CTA/Data/Prun/prod3b/paranal/gamma_20deg_0deg_run10___cta-prod3_desert-2150m-Paranal-merged.prun

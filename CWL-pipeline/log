@@ -1,0 +1,10 @@
+{
+    "reconstructed_file": {
+        "location": "file:///Users/thomasvuillaume/Work/CWL-pipeline/gamma_20deg_0deg_run10___cta-prod3_desert-2150m-Paranal-merged.ptabrecoevent",
+        "basename": "gamma_20deg_0deg_run10___cta-prod3_desert-2150m-Paranal-merged.ptabrecoevent",
+        "class": "File",
+        "checksum": "sha1$c3648faca3dda1175c7ef4fb06720fef47441372",
+        "size": 154598,
+        "path": "/Users/thomasvuillaume/Work/CWL-pipeline/gamma_20deg_0deg_run10___cta-prod3_desert-2150m-Paranal-merged.ptabrecoevent"
+    }
+}

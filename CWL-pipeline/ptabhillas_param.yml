@@ -1,0 +1,12 @@
+config: configDir/testConfig.ini
+ptabhillas_file:
+  class: File
+  path: /Users/thomasvuillaume/Work/CWL-pipeline/gamma_20deg_0deg_run10___cta-prod3_desert-2150m-Paranal-merged.ptabhillas
+
+
+# filename:
+#     class: File
+#     path: ../CTA/Data/Prun/prod3b/paranal/gamma_20deg_0deg_run10___cta-prod3_desert-2150m-Paranal-merged.prun
+# config:
+#     class: File
+#     path: configDir/testConfig.ini
