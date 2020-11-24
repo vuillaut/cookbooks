@@ -9,9 +9,9 @@ from matplotlib.colors import ListedColormap
 
 def seaborn_palettes():
   data = np.vstack([
-      multivariate_normal([10, 10], [[3, 2], [2, 3]], size=100000),
-      multivariate_normal([30, 20], [[2, 3], [1, 3]], size=1000)
-  ])
+    multivariate_normal([10, 10], [[3, 2], [2, 3]], size=100000),
+    multivariate_normal([30, 20], [[2, 3], [1, 3]], size=1000)
+])
 
 
   # construct cmap
@@ -32,13 +32,13 @@ def seaborn_palettes():
       'light_blues': ListedColormap(sns.color_palette('Blues', n_colors=100)),
   }
 
-for key, cm in colormaps.items():
+  for key, cm in colormaps.items():
 
-    plt.hist2d(data[:, 0], 
-               data[:, 1],
-               bins=100,  
-               cmap=cm,
-              )
-    plt.colorbar()
-    plt.title(key)
-    plt.show()
+      plt.hist2d(data[:, 0], 
+                 data[:, 1],
+                 bins=100,  
+                 cmap=cm,
+                )
+      plt.colorbar()
+      plt.title(key)
+      plt.show()
