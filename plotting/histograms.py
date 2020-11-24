@@ -32,14 +32,13 @@ def seaborn_palettes():
       'light_blues': ListedColormap(sns.color_palette('Blues', n_colors=100)),
   }
 
-  with plt.style.context('ctaplot-notebook'):
-      for key, cm in colormaps.items():
+for key, cm in colormaps.items():
 
-          plt.hist2d(data[:, 0], 
-                     data[:, 1],
-                     bins=100,  
-                     cmap=cm,
-                    )
-          plt.colorbar()
-          plt.title(key)
-          plt.show()
+    plt.hist2d(data[:, 0], 
+               data[:, 1],
+               bins=100,  
+               cmap=cm,
+              )
+    plt.colorbar()
+    plt.title(key)
+    plt.show()
